@@ -1,0 +1,47 @@
+name: 💬 Application Feedback
+description: Share general feedback about your experience with Event Horizon
+title: "[Feedback]: "
+labels: ["feedback"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Event Horizon! Your feedback is super valuable.
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: What kind of feedback is this?
+      description: Select the option that best matches
+      options:
+        - Usability / UX
+        - Performance
+        - Feature idea
+        - Visual issue
+        - Something is confusing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened or what would you like to see improved?
+      description: Tell us in your own words
+      placeholder: "When I tried to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: How did this affect your experience?
+      description: Was it annoying, blocking, minor, etc.?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, logs, extra context — drop it here

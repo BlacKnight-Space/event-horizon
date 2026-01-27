@@ -1,0 +1,45 @@
+name: 🚀 Feature Request
+description: Suggest an improvement or new feature
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea to improve the app? We'd love to hear it!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the frustration or limitation
+      placeholder: "It’s hard to..., Currently there’s no way to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your proposed solution
+      placeholder: "It would be great if the app could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Workarounds or other approaches
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Links to sessions, screenshots, mockups, etc.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
