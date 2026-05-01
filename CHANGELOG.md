@@ -15,7 +15,6 @@
 ### Changed
 
 - The Sessions area has been streamlined to make saving and loading faster and easier.
-- Selecting objects is now more intuitive and consistent.
 - Object list and detail views have been refreshed to be cleaner and more compact.
 
 ### Fixed
