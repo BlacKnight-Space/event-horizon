@@ -36,10 +36,10 @@
 >Initial Release! 🎉
 > Welcome to the beta relase of Event Horizon, please submit an issue with any feedback!
 
-### New Features
+### Added
 
 * This changelog!
 
-### Bug Fixes
+### Fixed
 
 * None yet, but please submit issues as your find them!
