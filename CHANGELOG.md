@@ -1,5 +1,51 @@
 # Changelog
 
+## [0.2.0]
+
+### Added
+
+- Timeline now displays an object's events
+- Visibility time intervals available for satellites, stations, and notecards; now saved in viewer sessions
+- Covariance ellipsoids can be rendered from ephemeris data, with an alpha/opacity slider
+- Button to add a facility directly from the lat/lon/alt display
+- Option to keep a satellite/station label always pinned/showing
+- Preselected color palette added to the color picker
+- Remove from viewer option added to the more-actions menu for satellites and stations
+- Select all option added to object/station lists
+- Moon now rendered in the viewer, toggleable from the top bar, with dynamic lighting
+- Save keyboard shortcut, `ctrl+s`
+- Confirmation prompt before closing the window with unsaved changes
+- Added autosaving viewer sessions to prevent work loss
+- Autosave indicator on the session save icon
+
+### Changed
+
+- Standardized time components throughout the UI
+- Refreshed styling for station buttons, color/size controls, and the visibility interval editor
+- Nicer deletion flow for objects
+- Clear screen dialog now matches the app theme
+- Reworked animation speed controls, with consistent hover coloring
+
+### Fixed
+
+- Model loading freeze
+- Stations and planes not clearing between sessions
+- Color slider
+- Notecard errors are now caught instead of silently failing
+- Notecard size/location no longer vary per monitor
+- Non-owners can no longer edit notecards
+- Object details button not working in some cases
+- Object zoomTo button not working in some cases
+- Camera position/zoom not preserved when zoom-to is active
+- Objects removed from viewer when deleted
+- Description textbox
+- Station edit dialog
+- Unit step values
+- Select-all checkbox no longer shows checked when only partially selected
+- Labels no longer disappear at certain zoom levels
+- Restart tutorial button
+- Datetime picker scaling
+
 ## [0.1.2]
 
 ### Added
