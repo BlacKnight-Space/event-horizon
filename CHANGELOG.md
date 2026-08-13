@@ -7,6 +7,7 @@
 - Timeline now displays an object's events
 - Visibility time intervals available for satellites, stations, and notecards; now saved in viewer sessions
 - Covariance ellipsoids can be rendered from ephemeris data, with an alpha/opacity slider
+- Added covariance parsing from `STK.e` files
 - Button to add a facility directly from the lat/lon/alt display
 - Option to keep a satellite/station label always pinned/showing
 - Preselected color palette added to the color picker
