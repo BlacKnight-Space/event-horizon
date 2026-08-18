@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.1]
+
+### Added
+
+- Viewer session names to browser tab
+
+### Changed
+
+### Fixed
+
+- Camera's in the `INERTIAL` frame would not have their states loaded correctly
+
 ## [0.2.0]
 
 ### Added
