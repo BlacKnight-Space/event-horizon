@@ -10,7 +10,7 @@
 
 ### Fixed
 
-- Camera's in the `INERTIAL` frame would not have their states loaded correctly
+- Cameras in the `INERTIAL` frame would not have their states loaded correctly
 
 ## [0.2.0]
 
