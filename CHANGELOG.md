@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.3.0]
+
+### Added
+
+#### :camera_flash: Save Multiple Cameras
+
+- Every viewer has a default camera
+- Any number of camera positions/orientations can be saved
+- Camera positions can be saved with validity times for viewer session replay
+- Saved camera orientations are also now saved into viewer sessions
+
+#### :artificial_satellite: Historic TLEs
+
+- Can now enter any TLE for an object
+- TLE is stored for that object and is propagated
+- TLE for the object can be updated manually
+
+#### Misc
+
+- API documentation link in about tab
+- Session name in browser tab
+- Dedicated account management page
+- Ability to show orbits in Lunar frame
+- Notecards now have time visibility internvals
+- Models are now sorted by object type
+- Added covariance transparency slider
+- Added Terms and Conditions
+
+### Changed
+
+### Fixed
+
+- Tutorial would render before session finished loading
+- Terms and Conditions would render before session finished loading
+- Cameras in the `INERTIAL` frame would not have their states loaded correctly
+
 ## [0.2.1]
 
 ### Added
