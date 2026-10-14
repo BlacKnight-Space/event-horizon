@@ -30,6 +30,8 @@
 
 ### Changed
 
+- None
+
 ### Fixed
 
 - Tutorial would render before session finished loading
@@ -43,6 +45,8 @@
 - Viewer session names to browser tab
 
 ### Changed
+
+- None
 
 ### Fixed
 
