@@ -4,14 +4,14 @@
 
 ### Added
 
-#### :camera_flash: Save Multiple Cameras
+#### Save Multiple Cameras
 
 - Every viewer has a default camera
 - Any number of camera positions/orientations can be saved
 - Camera positions can be saved with validity times for viewer session replay
 - Saved camera orientations are also now saved into viewer sessions
 
-#### :artificial_satellite: Historic TLEs
+#### Historic TLEs
 
 - Can now enter any TLE for an object
 - TLE is stored for that object and is propagated
