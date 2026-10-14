@@ -21,6 +21,7 @@
 
 - API documentation link in about tab
 - Session name in browser tab
+- Updated documentation to show json ephemeris upload
 - Dedicated account management page
 - Ability to show orbits in Lunar frame
 - Notecards now have time visibility internvals
