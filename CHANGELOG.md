@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.3.1]
+
+### Added
+
+#### Misc
+
+- API endpoint to return the viewer session schema for the user
+- Added a collapsable menu for inactive tokens
+- Support for 6-digit NORAD IDs (Alpha-5)
+- Updated colors to reflect branding
+
+### Changed
+
+- Updates websockets for better live telemetry viewing
+
+    *Example script coming soon*
+
+### Fixed
+
+- Propagation support for 6-digit NORAD IDs
+- Standardized hover icon colors
+- text color on some buttons
+- text consistency on red type
+- models are only queried when needed
+
 ## [0.3.0]
 
 ### Added
