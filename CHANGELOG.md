@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.3.1]
+
+### Added
+
+#### Misc
+
+- API endpoint to return the viewer session schema
+- Added a collapsable menu for inactive tokens
+- Support for 6-digit NORAD IDs (Alpha-5)
+- Updated colors to reflect branding
+- About page now links out to respective websites
+- Github emojis added to markdown windows :partying_face:
+
+### Changed
+
+- Updated websockets for better live telemetry viewing
+
+    *Example script coming soon*
+
+### Fixed
+
+- Propagation support for 6-digit NORAD IDs
+- UI text and color consistency
+- models are only queried when needed
+
 ## [0.3.0]
 
 ### Added
