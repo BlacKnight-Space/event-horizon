@@ -11,6 +11,7 @@
 - Support for 6-digit NORAD IDs (Alpha-5)
 - Updated colors to reflect branding
 - About page now links out to respective websites
+- Github emojis added to markdown windows :partying_face:
 
 ### Changed
 
