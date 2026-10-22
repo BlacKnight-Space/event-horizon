@@ -6,23 +6,22 @@
 
 #### Misc
 
-- API endpoint to return the viewer session schema for the user
+- API endpoint to return the viewer session schema
 - Added a collapsable menu for inactive tokens
 - Support for 6-digit NORAD IDs (Alpha-5)
 - Updated colors to reflect branding
+- About page now links out to respective websites
 
 ### Changed
 
-- Updates websockets for better live telemetry viewing
+- Updated websockets for better live telemetry viewing
 
     *Example script coming soon*
 
 ### Fixed
 
 - Propagation support for 6-digit NORAD IDs
-- Standardized hover icon colors
-- text color on some buttons
-- text consistency on red type
+- UI text and color consistency
 - models are only queried when needed
 
 ## [0.3.0]
